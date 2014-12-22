@@ -1,0 +1,37 @@
+"#menu": {
+    width: '100%',
+    height: '47dip',
+    top: '0',
+    backgroundColor: '#ffffff',
+    layout: 'composite',
+    zIndex: 5
+},
+
+"#view": {
+    left: 0,
+    height: Ti.UI.FILL,
+    width: Ti.UI.SIZE,
+    layout: 'horizontal'
+},
+
+"#lblIcon": {
+    left: '12dip',
+    height: Ti.UI.FILL,
+    width: Ti.UI.SIZE,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+    color: '#000000',
+    text: '+',
+    font: {
+        fontSize: 18
+    }
+},
+
+"#lblText": {
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+    height: Ti.UI.FILL,
+    width: Ti.UI.SIZE,
+    color: '#000000',
+    font: {
+        fontSize: 17
+    }
+}

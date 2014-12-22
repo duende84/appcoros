@@ -1,0 +1,60 @@
+'#indexWindow': {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    fullscreen: true,
+    exitOnClose: false,
+    backgroundColor: '#4e8ab5'
+},
+
+'#screenWrapper': {
+    width: '86%',
+    top: '50dip',
+    height: Ti.UI.SIZE,
+    backgroundColor: 'transparent',
+    layout: 'vertical'
+},
+
+'.viewHome': {
+	top: '15dip',
+	width: Ti.UI.FILL,
+	height: '180dip',
+	borderColor: '#515053',
+	backgroundColor: '#ffffff'
+},
+
+'.lblTitle': {
+	top: '60dip',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#4e8ab5",
+	font: {
+		fontSize: 30
+	}
+},
+
+'#lblHymns':{
+	text: L('lblHymns')
+},
+
+'#lblCoirs':{
+	text: L('lblCoirs')
+},
+
+'.separator': {
+    backgroundColor: '#dfdfdf',
+    height: 1,
+    right: '5%',
+    width: '90%',
+    bottom: '30dip'
+},
+
+
+'.lblSubTitle': {
+	bottom: '10dip',
+	width: Ti.UI.FILL,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#535e6e",
+	text: "#ullamco #laboris #nisi #aliquid #consequat",
+	font: {
+		fontSize: 13
+	}
+}

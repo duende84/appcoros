@@ -1,0 +1,7 @@
+<Alloy>
+    <Window id="indexWindow">
+        <View id="screenWrapper">
+        	<Require src="menu" id="menu"/>
+		</View>
+	</Window>
+</Alloy>

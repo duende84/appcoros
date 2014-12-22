@@ -1,0 +1,14 @@
+'#indexWindow': {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    fullscreen: true,
+    exitOnClose: false,
+    backgroundColor: '#4e8ab5'
+},
+
+'#screenWrapper': {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundColor: 'transparent',
+    layout: 'vertical'
+}

@@ -1,0 +1,8 @@
+<Alloy>
+    <View id="menu">
+        <View id="view">
+            <Label id="lblIcon"/>
+            <Label id="lblText"/>
+        </View>
+    </View>
+</Alloy>
