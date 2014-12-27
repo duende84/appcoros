@@ -1,25 +1,21 @@
-'#indexWindow': {
-    width: Ti.UI.FILL,
-    height: Ti.UI.FILL,
-    fullscreen: true,
-    exitOnClose: false,
-    backgroundColor: '#4e8ab5'
-},
-
 '#screenWrapper': {
+    top: '15%',
+    bottom: '5%',
     width: '86%',
-    top: '50dip',
     height: Ti.UI.SIZE,
     backgroundColor: 'transparent',
     layout: 'vertical'
 },
 
 '.viewHome': {
-	top: '15dip',
 	width: Ti.UI.FILL,
-	height: '180dip',
+	height: '45%',
 	borderColor: '#515053',
 	backgroundColor: '#ffffff'
+},
+
+'#viewCoirs':{
+	top: '15dip'
 },
 
 '.lblTitle': {
@@ -46,7 +42,6 @@
     width: '90%',
     bottom: '30dip'
 },
-
 
 '.lblSubTitle': {
 	bottom: '10dip',

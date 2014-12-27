@@ -2,4 +2,5 @@
 <resources>
   <string name="lblHymns">Himnos</string>
   <string name="lblCoirs">Coros</string>
+  <string name="app_name">Himnos y Coros</string>
 </resources>

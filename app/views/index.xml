@@ -1,12 +1,12 @@
 <Alloy>
-    <Window id="indexWindow">
+    <Window id="indexWindow" class="indexWindow">
         <View id="screenWrapper">
 			<View id="viewHymns" class="viewHome">
 				<Label id="lblHymns" class="lblTitle" />
 				<View class="separator"/>
 				<Label class="lblSubTitle"/>
 			</View>
-			<View  id="viewCoirs" class="viewHome">
+			<View id="viewCoirs" class="viewHome">
 				<Label id="lblCoirs" class="lblTitle" />
 				<View class="separator"/>
 				<Label class="lblSubTitle"/>

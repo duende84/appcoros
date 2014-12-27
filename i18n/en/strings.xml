@@ -2,4 +2,5 @@
 <resources>
   <string name="lblHymns">Hymns</string>
   <string name="lblCoirs">Coirs</string>
+  <string name="app_name">Hymns and Coirs</string>
 </resources>

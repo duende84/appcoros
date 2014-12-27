@@ -1,0 +1,16 @@
+'.indexWindow': {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    exitOnClose: false,
+    backgroundColor: '#4e8ab5',
+    orientationModes: [Ti.UI.PORTRAIT],
+    navBarHidden: true
+},
+
+'.indexWindow[platform=ios]':{
+	fullscreen: true
+},
+
+'.indexWindow[platform=android]':{
+	fullscreen: false
+}

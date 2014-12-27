@@ -5,11 +5,11 @@
     <version>1.0</version>
     <publisher>andres</publisher>
     <url>http://web.com</url>
-    <description/>
+    <description>undefined</description>
     <copyright>2014 by andres</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
-    <navbar-hidden>false</navbar-hidden>
+    <navbar-hidden>true</navbar-hidden>
     <analytics>true</analytics>
     <guid>769de386-8df7-497d-aa7b-2132712f568a</guid>
     <property name="ti.ui.defaultunit" type="string">dip</property>
@@ -38,7 +38,13 @@
             </dict>
         </plist>
     </ios>
-    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest>
+            <application android:theme="@style/Theme.NoActionBar"/>
+            <!-- Need to specify at least API level 11 for Titanium SDK 3.2.x and prior -->
+            <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="19"/>
+        </manifest>
+    </android>
     <deployment-targets>
         <target device="android">true</target>
         <target device="blackberry">false</target>
