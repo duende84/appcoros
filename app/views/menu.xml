@@ -1,8 +1,12 @@
 <Alloy>
     <View id="menu">
         <View id="view">
-            <Label id="lblIcon"/>
+            <Label id="iconMenu"/>
             <Label id="lblText"/>
+        </View>
+        <View id="searchPane">
+            <Label id="iconSearch"/>
+            <TextField id="inputSearch"/>
         </View>
     </View>
 </Alloy>

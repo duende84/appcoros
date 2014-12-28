@@ -3,5 +3,8 @@
     <style name="Theme.NoActionBar" parent="@style/Theme.AppCompat">
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
+
+        <!-- This item is required for Android 2.3.x support -->
+        <item name="windowActionBar">false</item>
     </style>
 </resources>

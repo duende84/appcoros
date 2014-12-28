@@ -3,4 +3,6 @@
   <string name="lblHymns">Hymns</string>
   <string name="lblCoirs">Coirs</string>
   <string name="app_name">Hymns and Coirs</string>
+  <string name="search">Search</string>
+  <string name="subtitle_home">#ullamco #laboris #nisi #aliquid #consequat</string>
 </resources>
