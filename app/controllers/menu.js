@@ -11,7 +11,7 @@ exports.setupMenu = function(options) {
     $.view.addEventListener('click', function(){
         var dialog = Ti.UI.createAlertDialog({
             cancel: 2,
-            buttonNames: ['Hymns', 'Coirs','Cancel']
+            buttonNames: ['Hymns', 'Choirs','Cancel']
         });
 
         dialog.addEventListener('click', function(e){

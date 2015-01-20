@@ -6,8 +6,8 @@
 				<View class="separator"/>
 				<Label class="lblSubTitle"/>
 			</View>
-			<View id="viewCoirs" class="viewHome">
-				<Label id="lblCoirs" class="lblTitle" />
+			<View id="viewChoirs" class="viewHome">
+				<Label id="lblChoirs" class="lblTitle" />
 				<View class="separator"/>
 				<Label class="lblSubTitle"/>
 			</View>

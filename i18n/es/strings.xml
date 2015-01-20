@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="lblHymns">Himnos</string>
-  <string name="lblCoirs">Coros</string>
+  <string name="lblChoirs">Coros</string>
   <string name="app_name">Himnos y Coros</string>
   <string name="search">Buscar</string>
   <string name="subtitle_home">#ullamco #laboris #nisi #aliquid #consequat</string>

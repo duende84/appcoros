@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="lblHymns">Hymns</string>
-  <string name="lblCoirs">Coirs</string>
-  <string name="app_name">Hymns and Coirs</string>
+  <string name="lblChoirs">Choirs</string>
+  <string name="app_name">Hymns and Choirs</string>
   <string name="search">Search</string>
   <string name="subtitle_home">#ullamco #laboris #nisi #aliquid #consequat</string>
   <string name="see">See</string>

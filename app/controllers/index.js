@@ -5,8 +5,8 @@ $.viewHymns.addEventListener('click', function(){
 	Alloy.createController('list_views', { type: L('lblHymns') });
 });
 
-$.viewCoirs.addEventListener('click', function(){
-	Alloy.createController('list_views', { type: L('lblCoirs') });
+$.viewChoirs.addEventListener('click', function(){
+	Alloy.createController('list_views', { type: L('lblChoirs') });
 });
 
 APP.addContext($.indexWindow, $.screenWrapper);

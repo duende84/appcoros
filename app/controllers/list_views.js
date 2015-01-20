@@ -34,9 +34,9 @@ APP.addContext($.indexWindow, $.screenWrapper);
 APP.openCurrentWindow();
 
 buildList([
-	{ type: 'coirs', name: 'Coir 1' },
-	{ type: 'coirs', name: 'Coir 2' },
-	{ type: 'coirs', name: 'Coir 3' },
+	{ type: 'choirs', name: 'Choir 1' },
+	{ type: 'choirs', name: 'Choir 2' },
+	{ type: 'choirs', name: 'Choir 3' },
 
 	{ type: 'hymns', name: 'Hymn 1' },
 	{ type: 'hymns', name: 'Hymn 2' },
