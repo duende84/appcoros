@@ -1,7 +1,22 @@
 <Alloy>
-    <Window id="indexWindow"  class="indexWindow">
+    <Window id="indexWindow" class="indexWindow">
         <View id="screenWrapper">
         	<Require src="menu" id="menu"/>
+			<View id="listViewWrapper">
+				<ListView id="listView" defaultItemTemplate="default">
+					<Templates>
+						<ItemTemplate name="default">
+							<View id="itemContainer" bindId="itemContainer">
+								<Label id="itemType" bindId="itemType"/>
+								<Label id="itemName" bindId="itemName"/>
+								<Button id="itemButton" bindId="itemButton"/>
+							</View>
+							<View id="separator"/>
+						</ItemTemplate>
+					</Templates>
+					<ListSection id="section"/>
+				</ListView>
+			</View>
 		</View>
 	</Window>
 </Alloy>

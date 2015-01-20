@@ -1,6 +1,77 @@
 '#screenWrapper': {
     width: Ti.UI.FILL,
     height: Ti.UI.FILL,
+    layout: 'vertical',
+    backgroundImage: '/images/background.png'
+},
+
+'#listViewWrapper': {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+},
+
+'#listView': {
+    width: Ti.UI.FILL,
+    showVerticalScrollIndicator: false,
     backgroundColor: 'transparent',
-    layout: 'vertical'
+    separatorColor: 'transparent',
+    separatorInsets: {
+        left:0,
+        right:0
+    }
+},
+
+'#itemContainer': {
+    width: Ti.UI.FILL,
+    height: '60dip',
+    layout: 'composite'
+},
+
+'#itemType':{
+    width: '40dip',
+    height: '40dip',
+    left: '15dip',
+    top: '10dip',
+    bottom: '10dip',
+    backgroundColor: '#93bcff',
+    borderRadius: '20dip',
+    font:{
+        fontFamily: 'OpenSans-Light',
+        fontSize: '16dip'
+    }
+},
+
+'#itemName': {
+    left: '70dip',
+    width: Ti.UI.FILL,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    font:{
+        fontFamily: 'OpenSans-Light',
+        fontSize: '16dip'
+    }
+},
+
+'#itemButton': {
+    width: '70dip',
+    height: '30dip',
+    top: '20dip',
+    right: '10dip',
+    color: 'black',
+    backgroundColor: '#f1ffff',
+    borderRadius: '7dip',
+    font:{
+        fontFamily: 'OpenSans-Light',
+        fontSize: '14dip'
+    }
+},
+
+'#separator': {
+    bottom: 0,
+    width: Ti.UI.FILL,
+    height: '0.4dip',
+    backgroundColor: "#e5e5e5"
+},
+
+'#separator[platform=android]': {
+    height: '1dip'
 }

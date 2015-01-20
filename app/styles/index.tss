@@ -1,3 +1,7 @@
+'.indexWindow': {
+	backgroundImage: '/images/background.png'
+},
+
 '#screenWrapper': {
     top: '15%',
     bottom: '5%',

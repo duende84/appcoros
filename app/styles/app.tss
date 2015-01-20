@@ -16,5 +16,6 @@
 },
 
 'Label': {
+	color: '#FFFFFF',
 	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
 }
