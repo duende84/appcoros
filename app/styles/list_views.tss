@@ -33,11 +33,12 @@
     left: '15dip',
     top: '10dip',
     bottom: '10dip',
-    backgroundColor: '#93bcff',
-    borderRadius: '20dip',
+    backgroundColor: '#93d0ff',
+    borderColor: '#93d0ff',
+    borderRadius: '25dip',
     font:{
-        fontFamily: 'OpenSans-Light',
-        fontSize: '16dip'
+        fontFamily: 'Lobster 1.4',
+        fontSize: '22dip'
     }
 },
 
@@ -56,12 +57,12 @@
     height: '30dip',
     top: '20dip',
     right: '10dip',
-    color: 'black',
-    backgroundColor: '#f1ffff',
-    borderRadius: '7dip',
+    color: '#0198d9',
+    backgroundColor: '#ffffff',
+    borderRadius: '10dip',
     font:{
-        fontFamily: 'OpenSans-Light',
-        fontSize: '14dip'
+        fontFamily: 'Myriad Pro',
+        fontSize: '15dip'
     }
 },
 

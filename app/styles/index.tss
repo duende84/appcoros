@@ -26,8 +26,8 @@
 	top: '25%',
 	color: "#234dc6",
 	font: {
-		fontFamily: 'OpenSans-Bold',
-		fontSize: 40
+		fontFamily: 'Lobster 1.4',
+		fontSize: 55
 	}
 },
 
