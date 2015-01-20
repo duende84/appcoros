@@ -8,6 +8,10 @@ exports.setupMenu = function(options) {
         $.menu.remove($.searchPane);
     }
 
+    if ( options.returnEvent !== null ) {
+        $.inputSearch.addEventListener('return', options.returnEvent);
+    }
+
     $.view.addEventListener('click', function(){
         var dialog = Ti.UI.createAlertDialog({
             cancel: 2,
