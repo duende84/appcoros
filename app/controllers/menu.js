@@ -6,6 +6,14 @@ exports.setupMenu = function(options) {
     if ( options.noSearch ) {
         $.searchPane.hide();
         $.menu.remove($.searchPane);
+    } else {
+        if ( OS_ANDROID ) {
+            $.inputSearch.softKeyboardOnFocus = Ti.UI.Android.SOFT_KEYBOARD_HIDE_ON_FOCUS;
+
+            $.inputSearch.addEventListener('click', function(){
+                $.inputSearch.softKeyboardOnFocus = Ti.UI.Android.SOFT_KEYBOARD_SHOW_ON_FOCUS;
+            });
+        }
     }
 
     if ( options.returnEvent !== null ) {
