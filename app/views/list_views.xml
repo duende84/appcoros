@@ -9,7 +9,7 @@
 							<View id="itemContainer" bindId="itemContainer">
 								<Label id="itemType" bindId="itemType"/>
 								<Label id="itemName" bindId="itemName"/>
-								<Button id="itemButton" bindId="itemButton"/>
+								<Label id="itemButton" bindId="itemButton"/>
 							</View>
 							<View id="separator"/>
 						</ItemTemplate>

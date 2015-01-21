@@ -43,7 +43,8 @@
 },
 
 '#itemName': {
-    left: '70dip',
+    left: '60dip',
+    right: '82dip',
     width: Ti.UI.FILL,
     textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
     font:{

@@ -14,7 +14,7 @@ var buildList = function(items){
     	var item = {
 	        itemName        : { text: _obj.name },
 	        itemType        : { text: _obj.type.charAt(0) === 'h' ? 'H' : 'C' },
-	        itemButton      : { title: L('see') },
+	        itemButton      : { text: L('see') },
 	        itemObject      : _obj,
 	        properties      : {
 	            layout           : 'horizontal',
@@ -43,6 +43,18 @@ var filterHandler = function() {
     });
     buildList(dataItems);
 };
+
+var clickHandler = function(e){
+    var item    = e.section.getItemAt(e.itemIndex),
+    elementId   = e.bindId,
+    btn         = /^itemButton/;
+
+    if ( elementId && elementId.match(btn) !== null ) {
+	    alert(item.itemObject.name);
+    }
+};
+
+$.listView.addEventListener('itemclick', clickHandler);
 
 $.menu.setupMenu({ title: type, returnEvent: filterHandler });
 
