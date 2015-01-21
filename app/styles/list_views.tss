@@ -35,7 +35,7 @@
     bottom: '10dip',
     backgroundColor: '#93d0ff',
     borderColor: '#93d0ff',
-    borderRadius: '25dip',
+    borderRadius: '20dip',
     font:{
         fontFamily: 'Lobster 1.4',
         fontSize: '22dip'
